@@ -4,16 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-      "test": "echo \"Error: no test specified\" && exit 1"
+    "dev": "vite",
+    "build": "vite build",
+    "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/heshamelmasry77/npm-test.git"
   },
-  "author": "hesham el masry",
+  "author": "",
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/heshamelmasry77/npm-test/issues"
   },
-  "homepage": "https://github.com/heshamelmasry77/npm-test#readme"
+  "homepage": "https://github.com/heshamelmasry77/npm-test#readme",
+  "devDependencies": {
+    "vite": "^3.1.0"
+  }
 }
